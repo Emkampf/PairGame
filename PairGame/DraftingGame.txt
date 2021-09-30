@@ -1,0 +1,50 @@
+﻿-set the killer,  BUT hide the killer  -----> randomly generate the killer
+-set clue(s) to rooms
+-needs characters
+- characters = 1 dead, 4 innocent, 1 killer
+- Main Menu = Main Room
+	**Case Details
+	- 1. Suspects 
+			Martin
+			Matthew
+			Karen
+			Linda
+			Peter
+		-1.-sus 1
+			-bio
+			-interact
+			-back to suspects
+		-2.-sus 2
+			-bio
+			-interact
+			-back to suspects
+		-3.-sus 3
+			-bio
+			-interact
+			-back to suspects
+		-4.-sus 4
+			-bio
+			-interact
+			-back to suspects
+		-5.-sus 5
+			-bio
+			-interact
+			-back to suspects
+		-6.-exit back to main
+	- 2. Explore Rooms
+		-Kitchen
+			-clue
+		-Living Room
+			-dummy room, nothing in here
+		-Shed
+			-clue
+		-Garage
+			-clue
+		-Dining Room
+			-clue
+	-3. Make an accusation
+			-Are you sure?
+			-Enter name of suspect
+				-if name is correct: You win, killer!
+				-if name is incorrect: Better watch your back! They are still out there.
+
