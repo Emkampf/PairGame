@@ -1,5 +1,5 @@
 ﻿using MurderMysteryRepos;
-using PairGame;
+/*using PairGame;*/
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -114,19 +114,20 @@ namespace MurderMystery_Console
                 switch (userInput)
                 {
                     case "1":
-                        //Kitchen
+                        KitchenResponse();
                         break;
                     case "2":
-                        //Living Room
+                        LivingRoomResponse();
                         break;
                     case "3":
-                        //Shed
+                        ShedResponse();
                         break;
                     case "4":
-                        //Garage
+                        GarageResponse();
                         break;
-                    case "5": 
-                        //Dining Room
+                    case "5":
+                        DiningRoomResponse();
+                        break;
                     case "6":
                         isRunning = false;
                         break;
@@ -468,7 +469,7 @@ namespace MurderMystery_Console
                 Console.ReadKey();
             }
         }
-        private void LivingRoom()
+        private void LivingRoomResponse()
         {
             if (_killer.OfficialAccusation == Suspects.Martin)
             {
@@ -501,7 +502,7 @@ namespace MurderMystery_Console
                 Console.ReadKey();
             }
         }
-        private void Shed()
+        private void ShedResponse()
         {
             if (_killer.OfficialAccusation == Suspects.Martin)
             {
@@ -534,7 +535,7 @@ namespace MurderMystery_Console
                 Console.ReadKey();
             }
         }
-        private void Garage()
+        private void GarageResponse()
         {
             if (_killer.OfficialAccusation == Suspects.Martin)
             {
@@ -567,7 +568,7 @@ namespace MurderMystery_Console
                 Console.ReadKey();
             }
         }
-        private void DiningRoom()
+        private void DiningRoomResponse()
         {
             if (_killer.OfficialAccusation == Suspects.Martin)
             {
